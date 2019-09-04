@@ -4,7 +4,7 @@ import { Form, Input } from '@rocketseat/unform';
 import * as Yup from 'yup';
 
 import logo from '~/assets/logo.svg';
-import { minify } from 'terser';
+
 
 const schema = Yup.object().shape({
   name: Yup.string().required('Preencha seu nome!'),
